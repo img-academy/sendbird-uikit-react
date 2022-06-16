@@ -117,7 +117,7 @@ const ChannelUI: React.FC<ChannelUIProps> = ({
               if (scrollRef?.current?.scrollTop) {
                 scrollRef.current.scrollTop = scrollRef?.current?.scrollHeight - scrollRef?.current?.offsetHeight;
               }
-              currentGroupChannel?.markAsRead();
+              // currentGroupChannel?.markAsRead();
               messagesDispatcher({
                 type: messageActionTypes.MARK_AS_READ,
                 payload: { channel: currentGroupChannel },

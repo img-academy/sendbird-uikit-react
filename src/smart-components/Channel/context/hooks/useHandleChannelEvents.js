@@ -47,7 +47,7 @@ function useHandleChannelEvents({ currentGroupChannel, sdkInit, hasMoreNext }, {
           if (scrollToEnd) {
             try {
               setTimeout(() => {
-                currentGroupChannel.markAsRead();
+                // currentGroupChannel.markAsRead();
                 scrollIntoLast();
               });
             } catch (error) {

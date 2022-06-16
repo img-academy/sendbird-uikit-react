@@ -84,7 +84,7 @@ function useHandleReconnect(
                 });
               })
               .finally(() => {
-                currentGroupChannel.markAsRead?.();
+                // currentGroupChannel.markAsRead?.();
               });
           });
       }
