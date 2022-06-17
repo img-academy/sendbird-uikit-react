@@ -37,7 +37,7 @@
     "rollup": "npm run clean-release; rollup -c",
     "deploy-storybook": "storybook-to-ghpages",
     "inspect": "npm run test; npm run lint;",
-    "bundle": "dts-bundle-generator -o ./dist/my.d.ts ./src/index.d.ts",
+    "bundle": "dts-bundle-generator -o ./dist/my.d.ts ./src/index.d.ts"
   },
   "repository": {
     "type": "git",
